@@ -1,0 +1,26 @@
+# Site settings
+title: J J
+header-img: img/frontpage.jpg
+email: joshuajenkins83@gmail.com
+copyright_name: Joshua Jenkins
+description: "Joshua Jenkins website, about myself and what I am learning"
+baseurl: "http://joshuaj.life"
+url: "http://joshuaj.life"
+twitter_username: joshuajenkins83
+github_username: joshjenkins6
+facebook_username: joshua.jenkins.733
+email_username: joshuajenkins83
+favicon: img/favicon.ico
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+google_tracking_id: UA-96486326-1
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
